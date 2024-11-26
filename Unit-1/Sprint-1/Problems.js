@@ -35,3 +35,33 @@
 // console.log(bag)
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+// Problem - 3
+// Given an Array of int , Find out the count of such occurrence of Element in the array where one of neighbours of the Element is a Prime Number.
+// Input : [5,7,12,11,15,3];
+// Output expected : 4
+
+// Solution Problem - 2
+
+// let arr = [5, 7, 12, 11, 15, 3];
+// let count = 0;
+// function isPrime(num) {
+//     // Helper function to check weather the num is prime or not...
+//     for (let i = 2; i * i <= num; i++) {
+//         if (num % i === 0) {
+//             return false;
+//         }
+//     } return true;
+// }
+// for (let i = 0; i < arr.length; i++) {
+//     let prev = arr[i - 1];
+//     let next = arr[i + 1];
+//     if (prev !== undefined && isPrime(prev) || next !== undefined && isPrime(next)) {
+//         count++;
+//     }
+// }
+// console.log(count)\
+
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
